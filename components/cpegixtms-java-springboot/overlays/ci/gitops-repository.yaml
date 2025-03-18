@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: cpegixtms-java-springboot-gitops-repository
+spec:
+  url: https://github.com/rhtap-rhdh-qe/cpegixtms-java-springboot-gitops
